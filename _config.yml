@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Philippe Gagnon"
-title_separator          : "-"
-name                     : &name "Philippe Gagnon"
+title                    : # "Philippe Gagnon"
+title_separator          : # "-"
+name                     : # &name "Philippe Gagnon"
 description              : &description "personal description"
 url                      : https://philippegagnonphd.github.io/PhilippeGagnon.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
