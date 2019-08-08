@@ -1,5 +1,5 @@
 ---
-title: "I will present my work on non-reversible jump algorithms at Bayes Comp 2020"
+title: "I will present my work on nonreversible jump algorithms at Bayes Comp 2020"
 collection: talks
 type: # "Talk"
 permalink: /talks/2019-08-08-Bayescomp
