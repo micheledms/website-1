@@ -30,6 +30,7 @@
     .page__meta,
     .page__share {
       @include full();
+      text-align: justify;
     }
   }
 }
