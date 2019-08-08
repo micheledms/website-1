@@ -1,7 +1,7 @@
 ---
 title: "I will present my work on non-reversible jump algorithms at Bayes Comp 2020"
 collection: talks
-type: "Talk"
+type: # "Talk"
 permalink: /talks/2019-08-08-Bayescomp
 venue: "Reitz Union, University of Florida"
 date: 2020-01-07
