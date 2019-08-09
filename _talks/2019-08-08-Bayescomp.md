@@ -4,6 +4,7 @@ collection: talks
 type: # "Talk"
 permalink: /talks/2019-08-08-Bayescomp
 venue: "Reitz Union, University of Florida"
+excerpt: 'A BRIEF SUMMARY OF THE NEWS'
 date: 2020-01-07
 location: "Gainesville, Florida, USA"
 ---
