@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Project"
 permalink: /cv/
 author_profile: true
@@ -9,24 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-<p align="justify">
 Nowadays, analysing high-dimensional data sets comprised of a massive number of variables is common practice. Typically, each of these variables also has a large number of observations. These characteristics present many challenges. For instance, considering that there is always a risk of recording observations incorrectly/inaccurately, the likelihood that such data sets contain anomalies of this type certainly increases. There is also a chance that the variables may be influenced by external factors in a given period of time, generating “extreme” observations (think of how decisions by the US Congress may have an impact on specific sectors in the economy; analysing more variables from more sectors increases the chances of observing shocks in the data). In other words, it becomes more likely to analyse data sets containing outliers. There is therefore a need for robust procedures that allow to reliably analyse large high-dimensional and possibly contaminated data sets in order to obtain conclusions that are consistent with most of the observations.  
-</p>
-<p align="justify">
+
 The plan for the next years is to construct sophisticated automatic procedures in which the models are robust and trained through a full and exact Bayesian analysis. Like machine learning algorithms, they can be viewed by users as “black boxes” that they feed data into, after which the procedures output predictions, but additionally, uncertainty assessments (e.g. credible intervals and results of hypothesis tests). The latter are important for insurance companies for risk evaluation. 
-</p>
-<p align="justify">
+
 Using models relying on super heavy-tailed distributions has recently proved to be a successful technique to gain robustness against outliers. The demonstration started with a paper by [Desgagné (2015)](https://projecteuclid.org/euclid.aos/1434546215) about the simple but ubiquitous location-scale model. The proof of effectiveness of the approach resides in the following: the posterior distribution converges to that based on the nonoutliers only (i.e. excluding the outliers) as the outliers move towards plus or minus infinity. As explained by Desgagné, that model has built-in robustness that resolves conflict in a sensitive way. It takes full consideration of nonoutliers and excludes observations that are undoubtedly outlying; in between these two extremes, it balances and bounds the impact of possible outliers, reflecting the uncertainty about the nature of those observations. 
-</p>
-<p align="justify">
+
 A significant generalisation of the results of [Desgagné (2015)](https://projecteuclid.org/euclid.aos/1434546215) has been made by [Gagnon, Desgagné and Bédard (2018)](https://projecteuclid.org/euclid.ba/1558598428) for the linear regression model. Their convergence result holds when any types of covariates are used (discrete, continuous or a mix of both), thus it is valid for ANOVA and ANCOVA. The authors also prove that the convergence holds for variable selection, meaning that the joint posterior of the models and their parameters converges. Additionally, a robust principal component analysis (PCA) has been introduced in [Gagnon, Bédard and Desgagné (2017)](https://arxiv.org/abs/1711.06341). 
-</p>
-<p align="justify">
+
 The super heavy-tailed distribution used is called the log-Pareto-tailed normal (LPTN). Its density matches the normal on the central part, while having log-Pareto tails. The rationale behind this choice is that the model with the LPTN is expected to behave similarly to the traditional one in the absence of outliers (that latter model is known for being the benchmark in terms of efficiency in that situation). That has been shown to be the case. In particular, [Gagnon, Desgagné and Bédard (2018)](https://projecteuclid.org/euclid.ba/1558598428) showed that when the data are generated from the normal model, the true values of the parameters are retrieved as the sample size increases, i.e. even under misspecification.  
-</p>
-<p align="justify">
+
 Suppose an actuary wants to model a type of loss using sociodemographic variables. In this context, generalised linear models (GLMs) are often used. The first part of the project will be on the use of super heavy-tailed distributions in general insurance, shown through a case study. The robust location-scale model will be used to univariately describe the variables. The robust linear regression model will be used to elucidate the underlying structure in the covariates, along with the robust PCA. The main contribution will be the introduction of robust GLMs based on the same idea of super heavy-tailed distributions. The second part of the project will be more theoretical and include a comprehensive analysis of the limiting posterior distributions as the outliers move further and further away, establishing for which class of models within GLMs the convergence holds. The efficiency of those models will also be studied. After that, we will proceed with the introduction and analysis of more complex models of interest for actuaries. Applications to risk measures and reinsurance will also be studied. 
-</p>
-<p align="justify">
+
 Numerical methods like Markov chain Monte Carlo (MCMC) algorithms are required for model selection and parameter estimation. The celebrated Metropolis-Hastings algorithm constructs reversible Markov chains having the posterior distribution as a stationary distribution. It is now well known that nonreversible MCMC methods often outperform their reversible counterparts. The most popular nonreversible methods are Hamiltonian Monte Carlo (HMC, see, e.g., [Neal (2011)](https://arxiv.org/abs/1206.1901)) and Bouncy Particle Sampler ([Bouchard-Côté, Vollmer and Doucet (2018)](https://doi.org/10.1080/01621459.2017.1294075 )). Another part of the project will be to introduce the actuarial community to those methods and to apply them to the robust models. The implementation of HMC is now automatic through the R package [RStan](https://mc-stan.org/users/interfaces/rstan). When the models are nested, for instance when the covariates are principal components, Gagnon and Doucet (2019) recently introduced nonreversible jump algorithms that allow to simultaneously achieve model selection and parameter estimation. Those, combined with HMC for parameter updates, are thus fully automatic. I am currently working on the design of automatic and efficient reversible jump algorithms for nonnested models. An additional project will be to make them nonreversible. R packages will also be created. 
-</p>
