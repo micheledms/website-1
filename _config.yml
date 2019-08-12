@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : # "Philippe Gagnon"
-title_separator          : # "-"
+title                    : "Personal webpage"
+title_separator          : "-"
 name                     : &name "Personal webpage"
 description              : &description "personal description"
 url                      : https://philippegagnonphd.github.io/webpage/
