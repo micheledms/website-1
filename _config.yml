@@ -11,9 +11,9 @@ title                    : # "Philippe Gagnon"
 title_separator          : # "-"
 name                     : # &name "Philippe Gagnon"
 description              : &description "personal description"
-url                      : https://philippegagnonphd.github.io/PhilippeGagnon.github.io/
+url                      : https://PhilippeGagnon.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "PhilippeGagnonPHD/PhilippeGagnon.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
