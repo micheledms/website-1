@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : # "Philippe Gagnon"
 title_separator          : # "-"
-name                     : # &name "Philippe Gagnon"
+name                     : &name "Personal webpage"
 description              : &description "personal description"
 url                      : https://philippegagnonphd.github.io/webpage/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
