@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Postdoctoral Researcher at University of Oxford, working with [Arnaud Doucet](http://www.stats.ox.ac.uk/~doucet/) on nonreversible jump algorithms (see [News](https://philippegagnonphd.github.io/website/talks/)). I will begin as Assistant Professor of actuarial science in the Department of Mathematics and Statistics at Université de Montréal in December 2019.
+I am currently a Postdoctoral Researcher at University of Oxford, working with [Arnaud Doucet](http://www.stats.ox.ac.uk/~doucet/) on nonreversible jump algorithms (see [News](https://philippegagnonphd.github.io/website/talks/)). I will begin as Assistant Professor of actuarial science in the [Department of Mathematics and Statistics](https://dms.umontreal.ca/en/) at Université de Montréal in December 2019.
 
 My experience and interest in actuarial science began with undergraduate studies in this field. While doing the bachelor's degree, I also fulfilled all the requirements for obtaining the Associate designation from the [Society of Actuaries](https://www.soa.org). After that, I completed a master's and Ph.D. in Statistics. During the graduate studies, I developed an interest for Bayesian robustness against outliers and Markov chain Monte Carlo methods. I more precisely introduced methodology for obtaining robust model/variable selection and parameter estimation in linear regression, along with efficient algorithms for achieving these tasks. 
 
