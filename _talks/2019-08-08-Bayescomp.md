@@ -4,7 +4,7 @@ collection: talks
 type: # "Talk"
 permalink: /talks/2019-08-08-Bayescomp
 venue: "Reitz Union, University of Florida"
-excerpt: 'Click [here](https://philippegagnonphd.github.io/webpage/talks/2019-08-08-Bayescomp) for the abstract.'
+excerpt: 'Click [here](https://philippegagnonphd.github.io/website/talks/2019-08-08-Bayescomp) for the abstract.'
 date: 2020-01-07
 location: "Gainesville, Florida, USA"
 ---
