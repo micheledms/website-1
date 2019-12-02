@@ -1,7 +1,7 @@
 ---
 title: "An automatic robust Bayesian approach to principal component regression"
 collection: publications
-permalink: /publication/2020-01-01-robust-PCR
+permalink: /publication/2019-04-01-robust-PCR
 date: 2019-04-01
 venue: # 'Bayesian Analysis'
 paperurl: # 'https://projecteuclid.org/euclid.bjps/1551690032'
