@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Philippe Gagnon"
   avatar           : "Profile_pic.png"
-  bio              : "Postdoctoral researcher in the Department of Statistics at University of Oxford"
+  bio              : "Assistant professor in the Department of Mathematics and Statistics at Université de Montréal"
   location         :  # "Location"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    :  # "http://yourfullgooglescholarurl.com"
-  email            :  "philippe.gagnon@stats.ox.ac.uk"
+  email            :  "gagnonp@dms.umontreal.ca"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
