@@ -1,16 +1,14 @@
 ---
-title: "I will present my work on nonreversible jump algorithms at Bayes Comp 2020"
+title: "I will present my work on non-reversible jump algorithms at Bayes Comp 2020"
 collection: talks
 type: # "Talk"
-permalink: /talks/2019-08-08-Bayescomp
+permalink: /talks/2020-01-07-Bayescomp
 venue: "Reitz Union, University of Florida"
-excerpt: 'Click [here](https://philippegagnonphd.github.io/website/talks/2019-08-08-Bayescomp) for the abstract.'
+excerpt: 'Click [here](https://philippegagnonphd.github.io/website/talks/2020-01-07-Bayescomp) for the abstract.'
 date: 2020-01-07
 location: "Gainesville, Florida, USA"
 ---
 
-Abstract: It is now well known that nonreversible Markov chain Monte Carlo methods often outperform their reversible counterparts. Lifting the state space ([Chen et al. (1999)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.68.1147)) has proved to be a successful technique for constructing such samplers relying on nonreversible Markov chains. The idea is to see the random variables that we wish to generate as position variables to which we associate velocity (or direction) variables, doubling the size of the state space. At each iteration of such samplers, the positions evolve deterministically as a function of the directions, and this is followed by a possible update of the latter. This direction assisted scheme may induce persistent movements that allow to traverse the state space more quickly, compared with the traditional methods producing chains with diffusive patterns. This explains the gain in efficiency. Directions playing a central role, the technique can only be employed to explore state spaces for which this concept is well defined. In this paper, we introduce samplers that we call nonreversible jump algorithms that can be applied to simultaneously achieve model selection and parameter estimation, in situations where the family of models considered forms a sequence of nested models; there thus exists a natural order among the models, and therefore, directions. These samplers are constructed by modifying reversible jump algorithms after having lifted the part of the state space associated with the model indicator. We demonstrate their correctness and show that they compare favourably to their reversible counterpart using both theoretical arguments as well as numerical experiments. We address implementation challenges, facilitating application by users. 
+**Abstract:** Non-reversible Markov chain Monte Carlo methods often outperform their reversible counterparts in terms of asymptotic variance of ergodic averages and mixing properties. Lifting the state-space ([Chen et al., 1999](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.68.1147); [Diaconis et al., 2000](https://projecteuclid.org/download/pdf_1/euclid.aoap/1019487508)) is a generic technique for constructing such samplers. The idea is to think of the random variables we want to generate as position variables and to associate to them direction variables so as to design Markov chains which do not have the diffusive behaviour often exhibited by reversible schemes. In this paper, we explore the benefits of using such ideas in the context of Bayesian model choice for nested models, a class of models for which the model indicator variable is an ordinal random variable. By lifting this model indicator variable, we obtain non-reversible jump algorithms, a non-reversible version of the popular reversible jump algorithms introduced by [Green (1995)](https://www2.stat.duke.edu/~scs/Courses/Stat376/Papers/TransdimMCMC/GreenRevJump.1995.pdf). This simple algorithmic modification provides samplers which can empirically outperform their reversible counterparts at no extra computational cost. The code to reproduce all experiments is available online.
 
 For more information about the conference see this [website](http://users.stat.ufl.edu/~jhobert/BayesComp2020/Conf_Website/).
-
-P.S.: the preprint will soon be on ArXiv.
