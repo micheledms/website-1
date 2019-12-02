@@ -84,7 +84,7 @@ author:
   avatar           : "Profile_pic.png"
   bio              : "Assistant professor in the Department of Mathematics and Statistics at Université de Montréal"
   location         :  # "Location"
-  employer         :
+  employer         :  "Université de Montréal"
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    :  # "http://yourfullgooglescholarurl.com"
   email            :  "gagnonp@dms.umontreal.ca"
