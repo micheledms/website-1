@@ -1,5 +1,5 @@
 ---
-title: "A step further towards automatic and efficient reversible jump algorithms"
+title: "Lifted samplers for partially ordered discrete state-spaces"
 collection: publications
 permalink: /publication/2020-04-01-lifted-partially
 date: 2020-03-01
