@@ -1,5 +1,5 @@
 ---
-title: "A step further towards automatic and efficient reversible jump algorithms"
+title: "Informed reversible jump algorithms"
 collection: publications
 permalink: /publication/2019-11-01-efficient-RJ
 date: 2021-11-01
