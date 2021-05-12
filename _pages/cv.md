@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Project"
-permalink: /cv/
+permalink: /project/
 author_profile: true
 redirect_from:
   - /resume
