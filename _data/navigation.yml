@@ -7,7 +7,7 @@ main:
     url: /news/  
 
   - title: "Project"
-    url: /cv/  
+    url: /project/  
 
   - title: "Supervision"
-    url: /teaching/
+    url: /supervision/
