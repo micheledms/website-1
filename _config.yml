@@ -255,6 +255,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _talks2
+  - scope:
+      path: ""
+      type: michele
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
