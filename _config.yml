@@ -187,7 +187,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  talks2:
+  supervision2:
     output: true
     permalink: /:collection/:path/
 
@@ -250,7 +250,7 @@ defaults:
   # _talks2
   - scope:
       path: ""
-      type: talks2
+      type: supervision2
     values:
       layout: talk
       author_profile: true
