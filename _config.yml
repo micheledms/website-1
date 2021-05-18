@@ -11,7 +11,7 @@ title                    : "Personal website"
 title_separator          : "-"
 name                     : &name "Personal website"
 description              : &description "personal description"
-url                      : https://philippegagnonphd.github.io/website
+url                      : https://micheledms.github.io/website-1
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "PhilippeGagnonPHD/webpage"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
