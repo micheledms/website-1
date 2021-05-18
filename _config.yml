@@ -210,10 +210,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _supervision
   - scope:
       path: ""
-      type: teaching
+      type: supervision
     values:
       layout: single
       author_profile: true
