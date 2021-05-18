@@ -1,6 +1,6 @@
 ---
 title: "Travel insurance claims modelling using statistical learning"
-collection: supervision
+collection: teaching
 type: "Caroline Leboeuf, Mitacs Accelerate summer internship"
 permalink: files/travel_insurance_stat_learning_2020.pdf
 venue: "Master's student"
