@@ -187,7 +187,9 @@ collections:
   supervision:
     output: true
     permalink: /:collection/:path/
-
+  michele:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
