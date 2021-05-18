@@ -213,7 +213,7 @@ defaults:
   # _supervision
   - scope:
       path: ""
-      type: supervision
+      type: teaching
     values:
       layout: single
       author_profile: true
