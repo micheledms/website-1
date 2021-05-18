@@ -10,4 +10,4 @@ location: # "City, Country"
 
 Department of Computer Science and Operations Research, Université de Montréal
 
-[drawing3](files/travel_insurance_stat_learning_2020.pdf)
+[drawing3](/website/files/travel_insurance_stat_learning_2020.pdf)
