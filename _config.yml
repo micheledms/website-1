@@ -258,7 +258,7 @@ defaults:
   # _talks2
   - scope:
       path: ""
-      type: michele
+      type: michele2
     values:
       layout: talk
       author_profile: true
